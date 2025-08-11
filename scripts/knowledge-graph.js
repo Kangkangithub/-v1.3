@@ -454,6 +454,148 @@ function clearManufacturerSelection() {
         
         // 显示详情
         detailsContainer.innerHTML = html;
+        
+        // 如果是武器节点，添加图片管理功能
+        if (node.labels.includes('Weapon')) {
+            // 创建图片管理容器
+            const imageManagementContainer = document.createElement('div');
+            imageManagementContainer.className = 'weapon-image-management';
+            imageManagementContainer.style.cssText = 'margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;';
+            
+            // 添加图片管理标题
+            const imageTitle = document.createElement('h4');
+            imageTitle.textContent = '武器图片管理';
+            imageTitle.style.cssText = 'margin: 0 0 10px 0; color: #fff; font-size: 14px;';
+            imageManagementContainer.appendChild(imageTitle);
+            
+            // 创建图片显示区域
+            const imageDisplayArea = document.createElement('div');
+            imageDisplayArea.id = 'weapon-image-display-area';
+            imageDisplayArea.className = 'weapon-image-display-area';
+            imageManagementContainer.appendChild(imageDisplayArea);
+            
+            // 创建操作按钮组
+            const buttonGroup = document.createElement('div');
+            buttonGroup.className = 'weapon-image-buttons';
+            buttonGroup.style.cssText = 'display: flex; gap: 8px; margin-top: 10px;';
+            
+            // 查看图片按钮
+            const viewButton = document.createElement('button');
+            viewButton.className = 'weapon-image-btn btn-primary';
+            viewButton.innerHTML = '<i class="fas fa-images"></i> 查看';
+            viewButton.style.cssText = 'flex: 1; padding: 8px; border: none; border-radius: 4px; background: #007bff; color: white; cursor: pointer; font-size: 12px;';
+            
+            // 上传图片按钮
+            const uploadButton = document.createElement('button');
+            uploadButton.className = 'weapon-image-btn btn-success';
+            uploadButton.innerHTML = '<i class="fas fa-upload"></i> 上传';
+            uploadButton.style.cssText = 'flex: 1; padding: 8px; border: none; border-radius: 4px; background: #28a745; color: white; cursor: pointer; font-size: 12px;';
+            
+            // 管理图片按钮
+            const manageButton = document.createElement('button');
+            manageButton.className = 'weapon-image-btn btn-warning';
+            manageButton.innerHTML = '<i class="fas fa-cog"></i> 管理';
+            manageButton.style.cssText = 'flex: 1; padding: 8px; border: none; border-radius: 4px; background: #ffc107; color: #212529; cursor: pointer; font-size: 12px;';
+            
+            // 添加悬停效果
+            [viewButton, uploadButton, manageButton].forEach(btn => {
+                btn.addEventListener('mouseenter', () => {
+                    btn.style.opacity = '0.8';
+                });
+                btn.addEventListener('mouseleave', () => {
+                    btn.style.opacity = '1';
+                });
+            });
+            
+            // 获取武器ID
+            function getWeaponId() {
+                let weaponId = node.id;
+                console.log('点击武器节点，原始ID:', node.id, '节点类型:', node.labels);
+                
+                // 如果是武器节点且ID包含weapon_前缀，提取数字部分
+                if (typeof weaponId === 'string' && weaponId.startsWith('weapon_')) {
+                    weaponId = weaponId.replace('weapon_', '');
+                    console.log('提取武器ID:', weaponId);
+                } else if (typeof weaponId === 'string' && weaponId.includes('_')) {
+                    // 处理其他格式的ID
+                    const parts = weaponId.split('_');
+                    weaponId = parts[parts.length - 1];
+                    console.log('分割后的ID:', weaponId);
+                }
+                
+                // 确保ID是数字
+                const numericId = parseInt(weaponId);
+                if (isNaN(numericId)) {
+                    console.error('无法解析武器ID:', weaponId);
+                    return null;
+                }
+                
+                console.log('最终武器ID:', numericId);
+                return numericId;
+            }
+            
+            // 查看图片按钮事件
+            viewButton.addEventListener('click', () => {
+                const weaponId = getWeaponId();
+                if (weaponId === null) {
+                    alert('无法获取武器ID，请稍后重试');
+                    return;
+                }
+                
+                if (window.weaponImageManager) {
+                    window.weaponImageManager.showWeaponImages(weaponId, node.properties.name);
+                } else {
+                    alert('图片功能正在加载中，请稍后重试');
+                }
+            });
+            
+            // 上传图片按钮事件
+            uploadButton.addEventListener('click', () => {
+                const weaponId = getWeaponId();
+                if (weaponId === null) {
+                    alert('无法获取武器ID，请稍后重试');
+                    return;
+                }
+                
+                if (window.weaponImageManager) {
+                    window.weaponImageManager.showUploadDialog(weaponId, node.properties.name);
+                } else {
+                    alert('图片功能正在加载中，请稍后重试');
+                }
+            });
+            
+            // 管理图片按钮事件
+            manageButton.addEventListener('click', () => {
+                const weaponId = getWeaponId();
+                if (weaponId === null) {
+                    alert('无法获取武器ID，请稍后重试');
+                    return;
+                }
+                
+                if (window.weaponImageManager) {
+                    window.weaponImageManager.showManagementDialog(weaponId, node.properties.name);
+                } else {
+                    alert('图片功能正在加载中，请稍后重试');
+                }
+            });
+            
+            // 将按钮添加到按钮组
+            buttonGroup.appendChild(viewButton);
+            buttonGroup.appendChild(uploadButton);
+            buttonGroup.appendChild(manageButton);
+            
+            // 将按钮组添加到容器
+            imageManagementContainer.appendChild(buttonGroup);
+            
+            // 将整个图片管理容器添加到详情容器
+            detailsContainer.appendChild(imageManagementContainer);
+            
+            // 自动加载并显示武器图片缩略图
+            const weaponId = getWeaponId();
+            if (weaponId !== null && window.weaponImageManager) {
+                window.weaponImageManager.loadWeaponImageThumbnails(weaponId, imageDisplayArea);
+            }
+        }
     }
     
     // 查询数据库数据

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/knowledge-graph.css">
     <link rel="stylesheet" href="styles/management-interface-enhanced.css">
+    <link rel="stylesheet" href="styles/weapon-image-modal.css">
+    <link rel="stylesheet" href="styles/weapon-image-integration.css">
+    <link rel="stylesheet" href="styles/weapon-image-lightbox.css">
+    <link rel="stylesheet" href="styles/weapon-image-integration-thumbnails.css">
     <!-- 引入D3.js库 -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- 引入Neo4j JavaScript驱动 -->
@@ -104,6 +108,50 @@
                     <h3>节点详情</h3>
                     <div id="nodeDetails">
                         <p>点击节点查看详细信息</p>
+                    </div>
+                    <!-- 武器图片管理区域 -->
+                    <div id="weaponImageSection" class="weapon-image-section" style="display: none;">
+                        <div class="image-section-header">
+                            <h4><i class="fas fa-images"></i> 武器图片管理</h4>
+                            <button id="uploadImageBtn" class="btn-primary btn-small">
+                                <i class="fas fa-upload"></i> 上传图片
+                            </button>
+                        </div>
+                        
+                        <!-- 图片上传区域 -->
+                        <div id="imageUploadArea" class="image-upload-area" style="display: none;">
+                            <div class="upload-form">
+                                <div class="file-input-wrapper">
+                                    <input type="file" id="weaponImageFile" accept="image/*">
+                                    <div class="file-input-content">
+                                        <i class="fas fa-cloud-upload-alt"></i>
+                                        <div>点击选择图片文件</div>
+                                        <small>支持 JPG, PNG, GIF, WebP 格式，最大 5MB</small>
+                                    </div>
+                                </div>
+                                <textarea id="weaponImageDescription" class="description-input" 
+                                          placeholder="请输入图片描述（可选）" rows="2"></textarea>
+                                <div class="upload-actions">
+                                    <button id="confirmUploadBtn" class="btn-success btn-small">
+                                        <i class="fas fa-check"></i> 确认上传
+                                    </button>
+                                    <button id="cancelUploadBtn" class="btn-secondary btn-small">
+                                        <i class="fas fa-times"></i> 取消
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 图片展示区域 -->
+                        <div id="weaponImagesGrid" class="weapon-images-grid">
+                            <div class="loading-images">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                <span>正在加载图片...</span>
+                            </div>
+                        </div>
+
+                        <!-- 状态消息 -->
+                        <div id="imageMessage" class="image-message" style="display: none;"></div>
                     </div>
                 </div>
             </div>
@@ -546,5 +594,8 @@
     <script src="scripts/knowledge-graph-analysis-fixed.js"></script>
     <script src="scripts/knowledge-graph-analysis-manufacturer-complete.js"></script>
     <script src="scripts/weapon-delete-fix.js"></script>
+    <script src="scripts/weapon-image-modal.js"></script>
+    <script src="scripts/weapon-image-display.js"></script>
+    <script src="scripts/weapon-image-integration.js"></script>
 </body>
 </html>
