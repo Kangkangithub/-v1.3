@@ -110,6 +110,7 @@ class SimpleApp {
     this.app.use('/api/auth', authRoutes);
     this.app.use('/api/weapons', weaponRoutes);
     this.app.use('/api/weapon-images', require('./routes/weapon-images'));
+    this.app.use('/api/weapon-videos', require('./routes/weapon-videos'));
     this.app.use('/api/manufacturers', require('./routes/manufacturers'));
     this.app.use('/api/manufacturer-statistics', require('./routes/manufacturer-statistics'));
     this.app.use('/api/weapon-types', require('./routes/weapon-types'));

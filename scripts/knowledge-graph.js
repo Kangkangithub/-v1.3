@@ -455,7 +455,7 @@ function clearManufacturerSelection() {
         // 显示详情
         detailsContainer.innerHTML = html;
         
-        // 如果是武器节点，添加图片管理功能
+        // 如果是武器节点，添加图片和视频管理功能
         if (node.labels.includes('Weapon')) {
             // 创建图片管理容器
             const imageManagementContainer = document.createElement('div');
@@ -474,10 +474,10 @@ function clearManufacturerSelection() {
             imageDisplayArea.className = 'weapon-image-display-area';
             imageManagementContainer.appendChild(imageDisplayArea);
             
-            // 创建操作按钮组
-            const buttonGroup = document.createElement('div');
-            buttonGroup.className = 'weapon-image-buttons';
-            buttonGroup.style.cssText = 'display: flex; gap: 8px; margin-top: 10px;';
+            // 创建图片操作按钮组
+            const imageButtonGroup = document.createElement('div');
+            imageButtonGroup.className = 'weapon-image-buttons';
+            imageButtonGroup.style.cssText = 'display: flex; gap: 8px; margin-top: 10px;';
             
             // 查看图片按钮
             const viewButton = document.createElement('button');
@@ -496,6 +496,40 @@ function clearManufacturerSelection() {
             manageButton.className = 'weapon-image-btn btn-warning';
             manageButton.innerHTML = '<i class="fas fa-cog"></i> 管理';
             manageButton.style.cssText = 'flex: 1; padding: 8px; border: none; border-radius: 4px; background: #ffc107; color: #212529; cursor: pointer; font-size: 12px;';
+
+            // 创建视频管理容器
+            const videoManagementContainer = document.createElement('div');
+            videoManagementContainer.className = 'weapon-video-management';
+            videoManagementContainer.style.cssText = 'margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;';
+            
+            // 添加视频管理标题
+            const videoTitle = document.createElement('h4');
+            videoTitle.textContent = '武器视频管理';
+            videoTitle.style.cssText = 'margin: 0 0 10px 0; color: #fff; font-size: 14px;';
+            videoManagementContainer.appendChild(videoTitle);
+            
+            // 创建视频显示区域
+            const videoDisplayArea = document.createElement('div');
+            videoDisplayArea.id = 'weapon-video-display-area';
+            videoDisplayArea.className = 'weapon-video-display-area';
+            videoManagementContainer.appendChild(videoDisplayArea);
+            
+            // 创建视频操作按钮组
+            const videoButtonGroup = document.createElement('div');
+            videoButtonGroup.className = 'weapon-video-buttons';
+            videoButtonGroup.style.cssText = 'display: flex; gap: 8px; margin-top: 10px;';
+            
+            // 查看视频按钮
+            const viewVideoButton = document.createElement('button');
+            viewVideoButton.className = 'weapon-video-btn btn-primary';
+            viewVideoButton.innerHTML = '<i class="fas fa-video"></i> 查看';
+            viewVideoButton.style.cssText = 'flex: 1; padding: 8px; border: none; border-radius: 4px; background: #6f42c1; color: white; cursor: pointer; font-size: 12px;';
+            
+            // 管理视频按钮
+            const manageVideoButton = document.createElement('button');
+            manageVideoButton.className = 'weapon-video-btn btn-info';
+            manageVideoButton.innerHTML = '<i class="fas fa-cogs"></i> 管理';
+            manageVideoButton.style.cssText = 'flex: 1; padding: 8px; border: none; border-radius: 4px; background: #17a2b8; color: white; cursor: pointer; font-size: 12px;';
             
             // 添加悬停效果
             [viewButton, uploadButton, manageButton].forEach(btn => {
@@ -579,21 +613,68 @@ function clearManufacturerSelection() {
                 }
             });
             
-            // 将按钮添加到按钮组
-            buttonGroup.appendChild(viewButton);
-            buttonGroup.appendChild(uploadButton);
-            buttonGroup.appendChild(manageButton);
+            // 查看视频按钮事件
+            viewVideoButton.addEventListener('click', () => {
+                const weaponId = getWeaponId();
+                if (weaponId === null) {
+                    alert('无法获取武器ID，请稍后重试');
+                    return;
+                }
+                
+                // 检查视频管理器是否已加载并且有showWeaponVideos方法
+                if (window.weaponVideoManager && typeof window.weaponVideoManager.showWeaponVideos === 'function') {
+                    window.weaponVideoManager.showWeaponVideos(weaponId, node.properties.name);
+                } else {
+                    // 如果视频管理器还没加载，尝试动态加载
+                    console.log('视频管理器未加载，尝试动态加载...');
+                    loadVideoManagerAndShow(weaponId, node.properties.name, 'showWeaponVideos');
+                }
+            });
+            
+            // 管理视频按钮事件
+            manageVideoButton.addEventListener('click', () => {
+                const weaponId = getWeaponId();
+                if (weaponId === null) {
+                    alert('无法获取武器ID，请稍后重试');
+                    return;
+                }
+                
+                // 检查视频管理器是否已加载并且有showManagementDialog方法
+                if (window.weaponVideoManager && typeof window.weaponVideoManager.showManagementDialog === 'function') {
+                    window.weaponVideoManager.showManagementDialog(weaponId, node.properties.name);
+                } else {
+                    // 如果视频管理器还没加载，尝试动态加载
+                    console.log('视频管理器未加载，尝试动态加载...');
+                    loadVideoManagerAndShow(weaponId, node.properties.name, 'showManagementDialog');
+                }
+            });
+            
+            // 将图片按钮添加到按钮组
+            imageButtonGroup.appendChild(viewButton);
+            imageButtonGroup.appendChild(uploadButton);
+            imageButtonGroup.appendChild(manageButton);
+            
+            // 将视频按钮添加到按钮组
+            videoButtonGroup.appendChild(viewVideoButton);
+            videoButtonGroup.appendChild(manageVideoButton);
             
             // 将按钮组添加到容器
-            imageManagementContainer.appendChild(buttonGroup);
+            imageManagementContainer.appendChild(imageButtonGroup);
+            videoManagementContainer.appendChild(videoButtonGroup);
             
-            // 将整个图片管理容器添加到详情容器
+            // 将整个管理容器添加到详情容器
             detailsContainer.appendChild(imageManagementContainer);
+            detailsContainer.appendChild(videoManagementContainer);
             
-            // 自动加载并显示武器图片缩略图
+            // 自动加载并显示武器图片和视频缩略图
             const weaponId = getWeaponId();
-            if (weaponId !== null && window.weaponImageManager) {
-                window.weaponImageManager.loadWeaponImageThumbnails(weaponId, imageDisplayArea);
+            if (weaponId !== null) {
+                if (window.weaponImageManager) {
+                    window.weaponImageManager.loadWeaponImageThumbnails(weaponId, imageDisplayArea);
+                }
+                if (window.weaponVideoManager) {
+                    window.weaponVideoManager.loadWeaponVideoThumbnails(weaponId, videoDisplayArea);
+                }
             }
         }
     }

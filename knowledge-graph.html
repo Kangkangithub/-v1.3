@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>知识图谱 - 神机图鉴</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/knowledge-graph.css">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="styles/weapon-image-integration.css">
     <link rel="stylesheet" href="styles/weapon-image-lightbox.css">
     <link rel="stylesheet" href="styles/weapon-image-integration-thumbnails.css">
+    <link rel="stylesheet" href="styles/weapon-video-integration.css">
     <!-- 引入D3.js库 -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- 引入Neo4j JavaScript驱动 -->
@@ -152,6 +154,27 @@
 
                         <!-- 状态消息 -->
                         <div id="imageMessage" class="image-message" style="display: none;"></div>
+                    </div>
+
+                    <!-- 武器视频管理区域 -->
+                    <div id="weaponVideoSection" class="weapon-video-section" style="display: none;">
+                        <div class="video-section-header">
+                            <h4><i class="fas fa-video"></i> 武器视频管理</h4>
+                            <button id="manageVideoBtn" class="btn-primary btn-small">
+                                <i class="fas fa-video"></i> 管理视频
+                            </button>
+                        </div>
+                        
+                        <!-- 视频缩略图展示区域 -->
+                        <div id="weaponVideoThumbnails" class="weapon-video-thumbnails">
+                            <div class="loading-video-thumbnails">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                <span>正在加载视频...</span>
+                            </div>
+                        </div>
+
+                        <!-- 状态消息 -->
+                        <div id="videoMessage" class="video-message" style="display: none;"></div>
                     </div>
                 </div>
             </div>
@@ -597,5 +620,6 @@
     <script src="scripts/weapon-image-modal.js"></script>
     <script src="scripts/weapon-image-display.js"></script>
     <script src="scripts/weapon-image-integration.js"></script>
+    <script src="scripts/weapon-video-integration.js"></script>
 </body>
 </html>

@@ -14,6 +14,13 @@ const logger = require('./utils/logger');
 const authRoutes = require('./routes/auth');
 const weaponRoutes = require('./routes/weapons');
 const knowledgeRoutes = require('./routes/knowledge');
+const weaponVideosRoutes = require('./routes/weapon-videos');
+const weaponImagesRoutes = require('./routes/weapon-images');
+const manufacturersRoutes = require('./routes/manufacturers');
+const weaponManufacturersRoutes = require('./routes/weapon-manufacturers');
+const manufacturerStatisticsRoutes = require('./routes/manufacturer-statistics');
+const weaponTypesRoutes = require('./routes/weapon-types');
+const weaponCountriesRoutes = require('./routes/weapon-countries');
 
 class App {
   constructor() {
@@ -101,6 +108,13 @@ class App {
     this.app.use('/api/auth', authRoutes);
     this.app.use('/api/weapons', weaponRoutes);
     this.app.use('/api/knowledge', knowledgeRoutes);
+    this.app.use('/api/weapon-videos', weaponVideosRoutes);
+    this.app.use('/api/weapon-images', weaponImagesRoutes);
+    this.app.use('/api/manufacturers', manufacturersRoutes);
+    this.app.use('/api/weapon-manufacturers', weaponManufacturersRoutes);
+    this.app.use('/api/manufacturer-statistics', manufacturerStatisticsRoutes);
+    this.app.use('/api/weapon-types', weaponTypesRoutes);
+    this.app.use('/api/weapon-countries', weaponCountriesRoutes);
 
     // 404处理
     this.app.use('*', (req, res) => {
