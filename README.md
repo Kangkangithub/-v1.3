@@ -153,7 +153,7 @@ node backend/scripts/check-deployment.js
 ```
 神机图鉴/
 ├── 📁 backend/                    # 后端服务
-│   ├── 📁 src/                    # 源代码
+│   ├── 📁 src/                    # 源代码（app-simple.js # 主应用入口）
 │   │   ├── 📁 routes/             # API路由
 │   │   ├── 📁 services/           # 业务逻辑
 │   │   ├── 📁 middleware/         # 中间件
@@ -176,10 +176,15 @@ node backend/scripts/check-deployment.js
 │   └── 📄 responsive.css          # 响应式样式
 ├── 📁 test_pages/                 # 测试页面
 ├── 📁 function_description/       # 功能说明文档
-├── 📄 knowledge-graph.html        # 主页面
+├── 📄 knowledge-graph.html        # 知识图谱页面
 ├── 📄 login.html                  # 登录页面
-├── 📄 package.json                # 项目配置
-└── 📄 README.md                   # 项目文档
+├── 📄 README.md                   # 项目文档
+├── 📄 index.html                  # 主页面
+├── 📄 qa.html                     # 智能问答页面
+├── 📄 recommendation.html         # 智能推荐页面
+├── 📄 weapon-recognition.html     # 武器识别页面
+├── 📄 register.html               # 注册页面
+└── 📄 profile.html                # 个人中心页面
 ```
 
 ### 数据库设计
