@@ -14355,3 +14355,691 @@
 2025-08-12 12:48:48 [INFO]: 数据库: SQLite
 2025-08-12 12:48:48 [INFO]: 健康检查: http://localhost:3001/health
 2025-08-12 12:48:48 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:09:02 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:09:02 [INFO]: SQLite数据库连接成功
+2025-08-12 14:09:02 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:09:02 [INFO]: 所有数据表初始化完成
+2025-08-12 14:09:02 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:09:02 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:09:02 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:09:02 [INFO]: 环境: development
+2025-08-12 14:09:02 [INFO]: 数据库: SQLite
+2025-08-12 14:09:02 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:09:02 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:09:22 [INFO]: ::1 - - [12/Aug/2025:06:09:22 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:22 [INFO]: ::1 - - [12/Aug/2025:06:09:22 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:22 [INFO]: ::1 - - [12/Aug/2025:06:09:22 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:22 [INFO]: ::1 - - [12/Aug/2025:06:09:22 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:22 [INFO]: ::1 - - [12/Aug/2025:06:09:22 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:22 [INFO]: ::1 - - [12/Aug/2025:06:09:22 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:25 [INFO]: 获取武器图片请求，原始武器ID: 364
+2025-08-12 14:09:25 [INFO]: 处理后的武器ID: 364
+2025-08-12 14:09:25 [INFO]: 数据库查询结果:
+2025-08-12 14:09:25 [INFO]: 解析到 1 张图片
+2025-08-12 14:09:25 [INFO]: ::1 - - [12/Aug/2025:06:09:25 +0000] "GET /api/weapon-images/364 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:25 [INFO]: ::1 - - [12/Aug/2025:06:09:25 +0000] "GET /api/weapon-videos/weapon/364 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:25 [INFO]: ::1 - - [12/Aug/2025:06:09:25 +0000] "GET /uploads/weapons/weapon-1754627500260-590124026.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:26 [INFO]: ::1 - - [12/Aug/2025:06:09:26 +0000] "GET /api/weapon-videos/file/weapon-video-1754974028911-235027262.mp4 HTTP/1.1" 206 18872357 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: 获取武器图片请求，原始武器ID: 604
+2025-08-12 14:09:30 [INFO]: 处理后的武器ID: 604
+2025-08-12 14:09:30 [INFO]: 数据库查询结果:
+2025-08-12 14:09:30 [INFO]: 解析到 1 张图片
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-images/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-videos/weapon/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /uploads/weapons/weapon-1754909433395-795560203.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 13689847 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 9757687 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 8414199 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 5039095 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 3761143 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 3269623 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 1991671 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:30 [INFO]: ::1 - - [12/Aug/2025:06:09:30 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 1041399 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:32 [INFO]: ::1 - - [12/Aug/2025:06:09:32 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 10544119 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:32 [INFO]: ::1 - - [12/Aug/2025:06:09:32 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 3433463 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:32 [INFO]: ::1 - - [12/Aug/2025:06:09:32 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 2548727 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:32 [INFO]: ::1 - - [12/Aug/2025:06:09:32 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 1336311 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:09:42 [INFO]: ::1 - - [12/Aug/2025:06:09:42 +0000] "GET /api/weapon-videos/file/weapon-video-1754974028911-235027262.mp4 HTTP/1.1" 206 17823781 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:16:06 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:16:06 [INFO]: SQLite数据库连接成功
+2025-08-12 14:16:06 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:16:06 [INFO]: 所有数据表初始化完成
+2025-08-12 14:16:06 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:16:06 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:16:06 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:16:06 [INFO]: 环境: development
+2025-08-12 14:16:06 [INFO]: 数据库: SQLite
+2025-08-12 14:16:06 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:16:06 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:16:16 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:16:16 [INFO]: SQLite数据库连接成功
+2025-08-12 14:16:16 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:16:16 [INFO]: 所有数据表初始化完成
+2025-08-12 14:16:16 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:16:16 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:16:16 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:16:16 [INFO]: 环境: development
+2025-08-12 14:16:16 [INFO]: 数据库: SQLite
+2025-08-12 14:16:16 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:16:16 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:16:31 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:16:31 [INFO]: SQLite数据库连接成功
+2025-08-12 14:16:31 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:16:31 [INFO]: 所有数据表初始化完成
+2025-08-12 14:16:31 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:16:31 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:16:31 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:16:31 [INFO]: 环境: development
+2025-08-12 14:16:31 [INFO]: 数据库: SQLite
+2025-08-12 14:16:31 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:16:31 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:16:50 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:16:50 [INFO]: SQLite数据库连接成功
+2025-08-12 14:16:50 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:16:50 [INFO]: 所有数据表初始化完成
+2025-08-12 14:16:50 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:16:50 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:16:50 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:16:50 [INFO]: 环境: development
+2025-08-12 14:16:50 [INFO]: 数据库: SQLite
+2025-08-12 14:16:50 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:16:50 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:16:54 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:16:54 [INFO]: SQLite数据库连接成功
+2025-08-12 14:16:54 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:16:54 [INFO]: 所有数据表初始化完成
+2025-08-12 14:16:54 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:16:54 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:16:54 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:16:54 [INFO]: 环境: development
+2025-08-12 14:16:54 [INFO]: 数据库: SQLite
+2025-08-12 14:16:54 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:16:54 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:17:17 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:17:17 [INFO]: SQLite数据库连接成功
+2025-08-12 14:17:17 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:17:17 [INFO]: 所有数据表初始化完成
+2025-08-12 14:17:17 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:17:17 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:17:17 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:17:17 [INFO]: 环境: development
+2025-08-12 14:17:17 [INFO]: 数据库: SQLite
+2025-08-12 14:17:17 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:17:17 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:17:21 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:17:21 [INFO]: SQLite数据库连接成功
+2025-08-12 14:17:21 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:17:21 [INFO]: 所有数据表初始化完成
+2025-08-12 14:17:22 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:17:22 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:17:22 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:17:22 [INFO]: 环境: development
+2025-08-12 14:17:22 [INFO]: 数据库: SQLite
+2025-08-12 14:17:22 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:17:22 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:19:12 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:19:12 [INFO]: SQLite数据库连接成功
+2025-08-12 14:19:12 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:19:12 [INFO]: 所有数据表初始化完成
+2025-08-12 14:19:12 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:19:41 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:19:41 [INFO]: SQLite数据库连接成功
+2025-08-12 14:19:41 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:19:41 [INFO]: 所有数据表初始化完成
+2025-08-12 14:19:41 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:20:01 [INFO]: ::1 - - [12/Aug/2025:06:20:01 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:02 [INFO]: ::1 - - [12/Aug/2025:06:20:02 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:02 [INFO]: ::1 - - [12/Aug/2025:06:20:02 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:02 [INFO]: ::1 - - [12/Aug/2025:06:20:02 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:02 [INFO]: ::1 - - [12/Aug/2025:06:20:02 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:02 [INFO]: ::1 - - [12/Aug/2025:06:20:02 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:05 [INFO]: 获取武器图片请求，原始武器ID: 364
+2025-08-12 14:20:05 [INFO]: 处理后的武器ID: 364
+2025-08-12 14:20:05 [INFO]: 数据库查询结果:
+2025-08-12 14:20:05 [INFO]: 解析到 1 张图片
+2025-08-12 14:20:05 [INFO]: ::1 - - [12/Aug/2025:06:20:05 +0000] "GET /api/weapon-images/364 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:05 [INFO]: ::1 - - [12/Aug/2025:06:20:05 +0000] "GET /api/weapon-videos/weapon/364 HTTP/1.1" 200 346 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:05 [INFO]: ::1 - - [12/Aug/2025:06:20:05 +0000] "GET /uploads/weapons/weapon-1754627500260-590124026.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:05 [INFO]: ::1 - - [12/Aug/2025:06:20:05 +0000] "GET /api/weapon-videos/file/weapon-video-1754974028911-235027262.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:07 [INFO]: ::1 - - [12/Aug/2025:06:20:07 +0000] "GET /api/weapon-videos/file/weapon-video-1754974028911-235027262.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:15 [INFO]: 获取武器图片请求，原始武器ID: 604
+2025-08-12 14:20:15 [INFO]: 处理后的武器ID: 604
+2025-08-12 14:20:15 [INFO]: 数据库查询结果:
+2025-08-12 14:20:15 [INFO]: 解析到 1 张图片
+2025-08-12 14:20:15 [INFO]: ::1 - - [12/Aug/2025:06:20:15 +0000] "GET /api/weapon-images/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:15 [INFO]: ::1 - - [12/Aug/2025:06:20:15 +0000] "GET /api/weapon-videos/weapon/604 HTTP/1.1" 200 425 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:15 [INFO]: ::1 - - [12/Aug/2025:06:20:15 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:15 [INFO]: ::1 - - [12/Aug/2025:06:20:15 +0000] "GET /uploads/weapons/weapon-1754909433395-795560203.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:16 [INFO]: ::1 - - [12/Aug/2025:06:20:16 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:22 [INFO]: 获取武器图片请求，原始武器ID: 604
+2025-08-12 14:20:22 [INFO]: 处理后的武器ID: 604
+2025-08-12 14:20:22 [INFO]: 数据库查询结果:
+2025-08-12 14:20:22 [INFO]: 解析到 1 张图片
+2025-08-12 14:20:22 [INFO]: ::1 - - [12/Aug/2025:06:20:22 +0000] "GET /api/weapon-images/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:22 [INFO]: ::1 - - [12/Aug/2025:06:20:22 +0000] "GET /api/weapon-videos/weapon/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:22 [INFO]: ::1 - - [12/Aug/2025:06:20:22 +0000] "GET /uploads/weapons/weapon-1754909433395-795560203.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:22 [INFO]: ::1 - - [12/Aug/2025:06:20:22 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:25 [INFO]: ::1 - - [12/Aug/2025:06:20:25 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:20:30 [INFO]: ::1 - - [12/Aug/2025:06:20:30 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:46 [INFO]: ::1 - - [12/Aug/2025:06:21:46 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:46 [INFO]: ::1 - - [12/Aug/2025:06:21:46 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:46 [INFO]: ::1 - - [12/Aug/2025:06:21:46 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:46 [INFO]: ::1 - - [12/Aug/2025:06:21:46 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:46 [INFO]: ::1 - - [12/Aug/2025:06:21:46 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:46 [INFO]: ::1 - - [12/Aug/2025:06:21:46 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:50 [INFO]: 获取武器图片请求，原始武器ID: 604
+2025-08-12 14:21:50 [INFO]: 处理后的武器ID: 604
+2025-08-12 14:21:50 [INFO]: 数据库查询结果:
+2025-08-12 14:21:50 [INFO]: 解析到 1 张图片
+2025-08-12 14:21:50 [INFO]: ::1 - - [12/Aug/2025:06:21:50 +0000] "GET /api/weapon-images/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:50 [INFO]: ::1 - - [12/Aug/2025:06:21:50 +0000] "GET /api/weapon-videos/weapon/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:50 [INFO]: ::1 - - [12/Aug/2025:06:21:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:50 [INFO]: ::1 - - [12/Aug/2025:06:21:50 +0000] "GET /uploads/weapons/weapon-1754909433395-795560203.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:21:51 [INFO]: ::1 - - [12/Aug/2025:06:21:51 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:02 [INFO]: 获取武器图片请求，原始武器ID: 140
+2025-08-12 14:23:02 [INFO]: 处理后的武器ID: 140
+2025-08-12 14:23:02 [INFO]: 数据库查询结果:
+2025-08-12 14:23:02 [INFO]: 解析到 0 张图片
+2025-08-12 14:23:02 [INFO]: ::1 - - [12/Aug/2025:06:23:02 +0000] "GET /api/weapon-images/140 HTTP/1.1" 200 72 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:02 [INFO]: ::1 - - [12/Aug/2025:06:23:02 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 200 26 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:03 [INFO]: ::1 - - [12/Aug/2025:06:23:03 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:11 [INFO]: ::1 - - [12/Aug/2025:06:23:11 +0000] "POST /api/weapon-videos/weapon/140/upload HTTP/1.1" 200 217 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:11 [INFO]: ::1 - - [12/Aug/2025:06:23:11 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 200 340 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:11 [INFO]: ::1 - - [12/Aug/2025:06:23:11 +0000] "GET /api/weapon-videos/file/weapon-video-1754979791128-627569160.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:24 [INFO]: ::1 - - [12/Aug/2025:06:23:24 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:24 [INFO]: ::1 - - [12/Aug/2025:06:23:24 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:24 [INFO]: ::1 - - [12/Aug/2025:06:23:24 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:24 [INFO]: ::1 - - [12/Aug/2025:06:23:24 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:24 [INFO]: ::1 - - [12/Aug/2025:06:23:24 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:24 [INFO]: ::1 - - [12/Aug/2025:06:23:24 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:27 [INFO]: 获取武器图片请求，原始武器ID: 140
+2025-08-12 14:23:27 [INFO]: 处理后的武器ID: 140
+2025-08-12 14:23:27 [INFO]: 数据库查询结果:
+2025-08-12 14:23:27 [INFO]: 解析到 0 张图片
+2025-08-12 14:23:27 [INFO]: ::1 - - [12/Aug/2025:06:23:27 +0000] "GET /api/weapon-images/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:27 [INFO]: ::1 - - [12/Aug/2025:06:23:27 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:27 [INFO]: ::1 - - [12/Aug/2025:06:23:27 +0000] "GET /api/weapon-videos/file/weapon-video-1754979791128-627569160.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:28 [INFO]: ::1 - - [12/Aug/2025:06:23:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754979791128-627569160.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:33 [INFO]: 获取武器图片请求，原始武器ID: 140
+2025-08-12 14:23:33 [INFO]: 处理后的武器ID: 140
+2025-08-12 14:23:33 [INFO]: ::1 - - [12/Aug/2025:06:23:33 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:33 [INFO]: 数据库查询结果:
+2025-08-12 14:23:33 [INFO]: 解析到 0 张图片
+2025-08-12 14:23:33 [INFO]: ::1 - - [12/Aug/2025:06:23:33 +0000] "GET /api/weapon-images/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:33 [INFO]: ::1 - - [12/Aug/2025:06:23:33 +0000] "GET /api/weapon-videos/file/weapon-video-1754979791128-627569160.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:23:34 [INFO]: ::1 - - [12/Aug/2025:06:23:34 +0000] "GET /api/weapon-videos/file/weapon-video-1754979791128-627569160.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:01 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:24:01 [INFO]: SQLite数据库连接成功
+2025-08-12 14:24:01 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:24:01 [INFO]: 所有数据表初始化完成
+2025-08-12 14:24:01 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:24:01 [INFO]: ::1 - - [12/Aug/2025:06:24:01 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:02 [INFO]: ::1 - - [12/Aug/2025:06:24:02 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:02 [INFO]: ::1 - - [12/Aug/2025:06:24:02 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:02 [INFO]: ::1 - - [12/Aug/2025:06:24:02 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:02 [INFO]: ::1 - - [12/Aug/2025:06:24:02 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:02 [INFO]: ::1 - - [12/Aug/2025:06:24:02 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:34 [INFO]: ::1 - - [12/Aug/2025:06:24:34 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:35 [INFO]: ::1 - - [12/Aug/2025:06:24:35 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:35 [INFO]: ::1 - - [12/Aug/2025:06:24:35 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:35 [INFO]: ::1 - - [12/Aug/2025:06:24:35 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:35 [INFO]: ::1 - - [12/Aug/2025:06:24:35 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:35 [INFO]: ::1 - - [12/Aug/2025:06:24:35 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:37 [INFO]: ::1 - - [12/Aug/2025:06:24:37 +0000] "GET /api/manufacturer-statistics/weapon-count HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:37 [INFO]: ::1 - - [12/Aug/2025:06:24:37 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:40 [INFO]: 获取武器图片请求，原始武器ID: 364
+2025-08-12 14:24:40 [INFO]: 处理后的武器ID: 364
+2025-08-12 14:24:40 [INFO]: ::1 - - [12/Aug/2025:06:24:40 +0000] "GET /api/weapon-videos/weapon/364 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:40 [INFO]: 数据库查询结果:
+2025-08-12 14:24:40 [INFO]: 解析到 1 张图片
+2025-08-12 14:24:40 [INFO]: ::1 - - [12/Aug/2025:06:24:40 +0000] "GET /api/weapon-images/364 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:40 [INFO]: ::1 - - [12/Aug/2025:06:24:40 +0000] "GET /api/weapon-videos/file/weapon-video-1754974028911-235027262.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:40 [INFO]: ::1 - - [12/Aug/2025:06:24:40 +0000] "GET /uploads/weapons/weapon-1754627500260-590124026.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:43 [INFO]: ::1 - - [12/Aug/2025:06:24:43 +0000] "GET /api/weapon-videos/file/weapon-video-1754974028911-235027262.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:47 [INFO]: 获取武器图片请求，原始武器ID: 146
+2025-08-12 14:24:47 [INFO]: 处理后的武器ID: 146
+2025-08-12 14:24:47 [INFO]: 数据库查询结果:
+2025-08-12 14:24:47 [INFO]: 解析到 0 张图片
+2025-08-12 14:24:47 [INFO]: ::1 - - [12/Aug/2025:06:24:47 +0000] "GET /api/weapon-images/146 HTTP/1.1" 200 74 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:47 [INFO]: ::1 - - [12/Aug/2025:06:24:47 +0000] "GET /api/weapon-videos/weapon/146 HTTP/1.1" 200 26 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:51 [INFO]: 获取武器图片请求，原始武器ID: 140
+2025-08-12 14:24:51 [INFO]: 处理后的武器ID: 140
+2025-08-12 14:24:51 [INFO]: 数据库查询结果:
+2025-08-12 14:24:51 [INFO]: 解析到 0 张图片
+2025-08-12 14:24:51 [INFO]: ::1 - - [12/Aug/2025:06:24:51 +0000] "GET /api/weapon-images/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:51 [INFO]: ::1 - - [12/Aug/2025:06:24:51 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:51 [INFO]: ::1 - - [12/Aug/2025:06:24:51 +0000] "GET /api/weapon-videos/file/weapon-video-1754979791128-627569160.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:24:51 [INFO]: ::1 - - [12/Aug/2025:06:24:51 +0000] "GET /api/weapon-videos/file/weapon-video-1754979791128-627569160.mp4 HTTP/1.1" 500 54 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:25:55 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:25:55 [INFO]: SQLite数据库连接成功
+2025-08-12 14:25:55 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:25:55 [INFO]: 所有数据表初始化完成
+2025-08-12 14:25:55 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:25:55 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:25:55 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:25:55 [INFO]: 环境: development
+2025-08-12 14:25:55 [INFO]: 数据库: SQLite
+2025-08-12 14:25:55 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:25:55 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:25:56 [INFO]: ::1 - - [12/Aug/2025:06:25:56 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:25:56 [INFO]: ::1 - - [12/Aug/2025:06:25:56 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:25:56 [INFO]: ::1 - - [12/Aug/2025:06:25:56 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:25:56 [INFO]: ::1 - - [12/Aug/2025:06:25:56 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:25:56 [INFO]: ::1 - - [12/Aug/2025:06:25:56 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:25:56 [INFO]: ::1 - - [12/Aug/2025:06:25:56 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:09 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:26:09 [INFO]: SQLite数据库连接成功
+2025-08-12 14:26:09 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:26:09 [INFO]: 所有数据表初始化完成
+2025-08-12 14:26:09 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:26:09 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:26:09 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:26:09 [INFO]: 环境: development
+2025-08-12 14:26:09 [INFO]: 数据库: SQLite
+2025-08-12 14:26:09 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:26:09 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:26:09 [INFO]: ::1 - - [12/Aug/2025:06:26:09 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:09 [INFO]: ::1 - - [12/Aug/2025:06:26:09 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:09 [INFO]: ::1 - - [12/Aug/2025:06:26:09 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:09 [INFO]: ::1 - - [12/Aug/2025:06:26:09 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:09 [INFO]: ::1 - - [12/Aug/2025:06:26:09 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:09 [INFO]: ::1 - - [12/Aug/2025:06:26:09 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:10 [INFO]: ::1 - - [12/Aug/2025:06:26:10 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:10 [INFO]: ::1 - - [12/Aug/2025:06:26:10 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:10 [INFO]: ::1 - - [12/Aug/2025:06:26:10 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:10 [INFO]: ::ffff:127.0.0.1 - - [12/Aug/2025:06:26:10 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:10 [INFO]: ::1 - - [12/Aug/2025:06:26:10 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:10 [INFO]: ::1 - - [12/Aug/2025:06:26:10 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:33 [INFO]: ::1 - - [12/Aug/2025:06:26:33 +0000] "HEAD /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 200 11173014 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.4652"
+2025-08-12 14:26:34 [INFO]: ::1 - - [12/Aug/2025:06:26:34 +0000] "GET /api/weapon-videos/weapon/220 HTTP/1.1" 200 353 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.4652"
+2025-08-12 14:26:55 [INFO]: ::1 - - [12/Aug/2025:06:26:55 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:55 [INFO]: ::1 - - [12/Aug/2025:06:26:55 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:55 [INFO]: ::1 - - [12/Aug/2025:06:26:55 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:55 [INFO]: ::1 - - [12/Aug/2025:06:26:55 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:55 [INFO]: ::1 - - [12/Aug/2025:06:26:55 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:26:55 [INFO]: ::1 - - [12/Aug/2025:06:26:55 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:27:00 [INFO]: ::1 - - [12/Aug/2025:06:27:00 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:27:00 [INFO]: ::1 - - [12/Aug/2025:06:27:00 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:27:00 [INFO]: ::1 - - [12/Aug/2025:06:27:00 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:27:00 [INFO]: ::1 - - [12/Aug/2025:06:27:00 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:27:00 [INFO]: ::1 - - [12/Aug/2025:06:27:00 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:27:00 [INFO]: ::1 - - [12/Aug/2025:06:27:00 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:27:08 [INFO]: ::1 - - [12/Aug/2025:06:27:08 +0000] "GET /api/weapon-videos/weapon/220 HTTP/1.1" 200 353 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) CodeBuddy/1.100.0 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"
+2025-08-12 14:28:11 [INFO]: ::1 - - [12/Aug/2025:06:28:11 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:11 [INFO]: ::1 - - [12/Aug/2025:06:28:11 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:11 [INFO]: ::1 - - [12/Aug/2025:06:28:11 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:11 [INFO]: ::1 - - [12/Aug/2025:06:28:11 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:11 [INFO]: ::1 - - [12/Aug/2025:06:28:11 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:11 [INFO]: ::1 - - [12/Aug/2025:06:28:11 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:13 [INFO]: 获取武器图片请求，原始武器ID: 604
+2025-08-12 14:28:13 [INFO]: 处理后的武器ID: 604
+2025-08-12 14:28:13 [INFO]: 数据库查询结果:
+2025-08-12 14:28:13 [INFO]: 解析到 1 张图片
+2025-08-12 14:28:13 [INFO]: ::1 - - [12/Aug/2025:06:28:13 +0000] "GET /api/weapon-images/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:13 [INFO]: ::1 - - [12/Aug/2025:06:28:13 +0000] "GET /api/weapon-videos/weapon/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /uploads/weapons/weapon-1754909433395-795560203.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 13689847 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 9757687 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 9069559 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 7365623 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 6218743 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 5039095 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 4121591 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 353271 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 10544119 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:14 [INFO]: ::1 - - [12/Aug/2025:06:28:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 975863 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:17 [INFO]: ::1 - - [12/Aug/2025:06:28:17 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 8020983 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:17 [INFO]: ::1 - - [12/Aug/2025:06:28:17 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 6317047 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:17 [INFO]: ::1 - - [12/Aug/2025:06:28:17 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 5301239 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:17 [INFO]: ::1 - - [12/Aug/2025:06:28:17 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 4514807 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:22 [INFO]: 获取武器图片请求，原始武器ID: 364
+2025-08-12 14:28:22 [INFO]: 处理后的武器ID: 364
+2025-08-12 14:28:22 [INFO]: 数据库查询结果:
+2025-08-12 14:28:22 [INFO]: 解析到 1 张图片
+2025-08-12 14:28:22 [INFO]: ::1 - - [12/Aug/2025:06:28:22 +0000] "GET /api/weapon-images/364 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:22 [INFO]: ::1 - - [12/Aug/2025:06:28:22 +0000] "GET /api/weapon-videos/weapon/364 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:22 [INFO]: ::1 - - [12/Aug/2025:06:28:22 +0000] "GET /uploads/weapons/weapon-1754627500260-590124026.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:22 [INFO]: ::1 - - [12/Aug/2025:06:28:22 +0000] "GET /api/weapon-videos/file/weapon-video-1754974028911-235027262.mp4 HTTP/1.1" 206 18872357 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:25 [INFO]: 获取武器图片请求，原始武器ID: 140
+2025-08-12 14:28:25 [INFO]: 处理后的武器ID: 140
+2025-08-12 14:28:25 [INFO]: 数据库查询结果:
+2025-08-12 14:28:25 [INFO]: 解析到 0 张图片
+2025-08-12 14:28:25 [INFO]: ::1 - - [12/Aug/2025:06:28:25 +0000] "GET /api/weapon-images/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:25 [INFO]: ::1 - - [12/Aug/2025:06:28:25 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:25 [INFO]: ::1 - - [12/Aug/2025:06:28:25 +0000] "GET /api/weapon-videos/file/weapon-video-1754979791128-627569160.mp4 HTTP/1.1" 206 18872357 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:28 [INFO]: ::1 - - [12/Aug/2025:06:28:28 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:31 [INFO]: ::1 - - [12/Aug/2025:06:28:31 +0000] "DELETE /api/weapon-videos/21 HTTP/1.1" 200 47 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:31 [INFO]: ::1 - - [12/Aug/2025:06:28:31 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 200 26 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:31 [INFO]: ::1 - - [12/Aug/2025:06:28:31 +0000] "GET /api/weapon-videos/file/weapon-video-1754974028911-235027262.mp4 HTTP/1.1" 206 18020389 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:31 [INFO]: ::1 - - [12/Aug/2025:06:28:31 +0000] "GET /api/weapon-videos/file/weapon-video-1754979791128-627569160.mp4 HTTP/1.1" 206 18085925 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:32 [INFO]: ::1 - - [12/Aug/2025:06:28:32 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:32 [INFO]: ::1 - - [12/Aug/2025:06:28:32 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:32 [INFO]: ::1 - - [12/Aug/2025:06:28:32 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:32 [INFO]: ::1 - - [12/Aug/2025:06:28:32 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:32 [INFO]: ::1 - - [12/Aug/2025:06:28:32 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:32 [INFO]: ::1 - - [12/Aug/2025:06:28:32 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:32 [INFO]: ::1 - - [12/Aug/2025:06:28:32 +0000] "GET /api/weapon-videos/weapon/220 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) CodeBuddy/1.100.0 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"
+2025-08-12 14:28:34 [INFO]: 获取武器图片请求，原始武器ID: 140
+2025-08-12 14:28:34 [INFO]: 处理后的武器ID: 140
+2025-08-12 14:28:34 [INFO]: ::1 - - [12/Aug/2025:06:28:34 +0000] "GET /api/weapon-videos/weapon/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:28:34 [INFO]: 数据库查询结果:
+2025-08-12 14:28:34 [INFO]: 解析到 0 张图片
+2025-08-12 14:28:34 [INFO]: ::1 - - [12/Aug/2025:06:28:34 +0000] "GET /api/weapon-images/140 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:16 [INFO]: 获取武器图片请求，原始武器ID: 600
+2025-08-12 14:29:16 [INFO]: 处理后的武器ID: 600
+2025-08-12 14:29:16 [INFO]: 数据库查询结果:
+2025-08-12 14:29:16 [INFO]: 解析到 1 张图片
+2025-08-12 14:29:16 [INFO]: ::1 - - [12/Aug/2025:06:29:16 +0000] "GET /api/weapon-images/600 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:16 [INFO]: ::1 - - [12/Aug/2025:06:29:16 +0000] "GET /api/weapon-videos/weapon/600 HTTP/1.1" 200 410 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:16 [INFO]: ::1 - - [12/Aug/2025:06:29:16 +0000] "GET /uploads/weapons/weapon-1754632207246-610467975.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:16 [INFO]: ::1 - - [12/Aug/2025:06:29:16 +0000] "GET /api/weapon-videos/file/weapon-video-1754966785360-884905336.mp4 HTTP/1.1" 206 5488786 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:16 [INFO]: ::1 - - [12/Aug/2025:06:29:16 +0000] "GET /api/weapon-videos/file/weapon-video-1754966785360-884905336.mp4 HTTP/1.1" 206 3489938 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:16 [INFO]: ::1 - - [12/Aug/2025:06:29:16 +0000] "GET /api/weapon-videos/file/weapon-video-1754966785360-884905336.mp4 HTTP/1.1" 206 2146450 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:16 [INFO]: ::1 - - [12/Aug/2025:06:29:16 +0000] "GET /api/weapon-videos/file/weapon-video-1754966785360-884905336.mp4 HTTP/1.1" 206 16530 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:16 [INFO]: ::1 - - [12/Aug/2025:06:29:16 +0000] "GET /api/weapon-videos/file/weapon-video-1754966785360-884905336.mp4 HTTP/1.1" 206 4440210 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:17 [INFO]: ::1 - - [12/Aug/2025:06:29:17 +0000] "GET /api/weapon-videos/file/weapon-video-1754966785360-884905336.mp4 HTTP/1.1" 206 2900114 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:17 [INFO]: ::1 - - [12/Aug/2025:06:29:17 +0000] "GET /api/weapon-videos/file/weapon-video-1754966785360-884905336.mp4 HTTP/1.1" 206 1687698 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:26 [INFO]: ::1 - - [12/Aug/2025:06:29:26 +0000] "GET /api/weapon-videos/weapon/220 HTTP/1.1" 200 353 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:26 [INFO]: ::1 - - [12/Aug/2025:06:29:26 +0000] "GET /api/weapon-videos/weapon/220 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/weapon/220 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "HEAD /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 200 11173014 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 11173014 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 9075862 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 7011478 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 6421654 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 6093974 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 5209238 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 4291734 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 3603606 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 2981014 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 1965206 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 949398 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:28 [INFO]: ::1 - - [12/Aug/2025:06:29:28 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 31894 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:31 [INFO]: ::1 - - [12/Aug/2025:06:29:31 +0000] "GET /api/weapon-videos/weapon/220 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:31 [INFO]: ::1 - - [12/Aug/2025:06:29:31 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 7634070 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:35 [INFO]: ::1 - - [12/Aug/2025:06:29:35 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 9665686 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:35 [INFO]: ::1 - - [12/Aug/2025:06:29:35 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 7502998 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:35 [INFO]: ::1 - - [12/Aug/2025:06:29:35 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 6618262 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:35 [INFO]: ::1 - - [12/Aug/2025:06:29:35 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 6356118 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:36 [INFO]: ::1 - - [12/Aug/2025:06:29:36 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 5438614 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:36 [INFO]: ::1 - - [12/Aug/2025:06:29:36 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 4619414 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:36 [INFO]: ::1 - - [12/Aug/2025:06:29:36 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 3964054 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:36 [INFO]: ::1 - - [12/Aug/2025:06:29:36 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 3341462 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:36 [INFO]: ::1 - - [12/Aug/2025:06:29:36 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 2718870 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:29:36 [INFO]: ::1 - - [12/Aug/2025:06:29:36 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 1703062 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:41 [INFO]: ::1 - - [12/Aug/2025:06:30:41 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:41 [INFO]: ::1 - - [12/Aug/2025:06:30:41 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:41 [INFO]: ::1 - - [12/Aug/2025:06:30:41 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:41 [INFO]: ::1 - - [12/Aug/2025:06:30:41 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:41 [INFO]: ::1 - - [12/Aug/2025:06:30:41 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:41 [INFO]: ::1 - - [12/Aug/2025:06:30:41 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:43 [INFO]: 获取武器图片请求，原始武器ID: 217
+2025-08-12 14:30:43 [INFO]: 处理后的武器ID: 217
+2025-08-12 14:30:43 [INFO]: 数据库查询结果:
+2025-08-12 14:30:43 [INFO]: 解析到 1 张图片
+2025-08-12 14:30:43 [INFO]: ::1 - - [12/Aug/2025:06:30:43 +0000] "GET /api/weapon-images/217 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:43 [INFO]: ::1 - - [12/Aug/2025:06:30:43 +0000] "GET /api/weapon-videos/weapon/217 HTTP/1.1" 200 344 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:43 [INFO]: ::1 - - [12/Aug/2025:06:30:43 +0000] "GET /uploads/weapons/weapon-1754628818265-772641713.jpg HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:44 [INFO]: ::1 - - [12/Aug/2025:06:30:44 +0000] "GET /api/weapon-videos/file/weapon-video-1754972258104-591380207.mp4 HTTP/1.1" 206 4578277 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:46 [INFO]: ::1 - - [12/Aug/2025:06:30:46 +0000] "GET /api/weapon-videos/file/weapon-video-1754972258104-591380207.mp4 HTTP/1.1" 206 3529701 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: 获取武器图片请求，原始武器ID: 2
+2025-08-12 14:30:50 [INFO]: 处理后的武器ID: 2
+2025-08-12 14:30:50 [INFO]: 数据库查询结果:
+2025-08-12 14:30:50 [INFO]: 解析到 1 张图片
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-images/2 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-videos/weapon/2 HTTP/1.1" 200 348 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /uploads/weapons/weapon-1754630728338-43778295.jpg HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 8775886 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 6809806 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 7727310 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 4778190 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 5761230 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 4221134 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 2615502 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:50 [INFO]: ::1 - - [12/Aug/2025:06:30:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 59598 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:51 [INFO]: ::1 - - [12/Aug/2025:06:30:51 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 7727310 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:51 [INFO]: ::1 - - [12/Aug/2025:06:30:51 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 5761230 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:51 [INFO]: ::1 - - [12/Aug/2025:06:30:51 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 4516046 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:51 [INFO]: ::1 - - [12/Aug/2025:06:30:51 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 3172558 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:52 [INFO]: ::1 - - [12/Aug/2025:06:30:52 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 518350 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: 获取武器图片请求，原始武器ID: 220
+2025-08-12 14:30:55 [INFO]: 处理后的武器ID: 220
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-videos/weapon/220 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: 数据库查询结果:
+2025-08-12 14:30:55 [INFO]: 解析到 1 张图片
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-images/220 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /uploads/weapons/weapon-1754630665404-297670398.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 11173014 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 7666838 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 8027286 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 6421654 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 5209238 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 3603606 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 1965206 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:55 [INFO]: ::1 - - [12/Aug/2025:06:30:55 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 916630 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:56 [INFO]: ::1 - - [12/Aug/2025:06:30:56 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 4160662 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:56 [INFO]: ::1 - - [12/Aug/2025:06:30:56 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 2555030 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:57 [INFO]: ::1 - - [12/Aug/2025:06:30:57 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 6880406 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:30:57 [INFO]: ::1 - - [12/Aug/2025:06:30:57 +0000] "GET /api/weapon-videos/file/weapon-video-1754966619789-324501414.mp4 HTTP/1.1" 206 5373078 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:04 [INFO]: ::1 - - [12/Aug/2025:06:31:04 +0000] "GET /api/manufacturer-statistics/weapon-count HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:04 [INFO]: ::1 - - [12/Aug/2025:06:31:04 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:07 [INFO]: ::1 - - [12/Aug/2025:06:31:07 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:07 [INFO]: ::1 - - [12/Aug/2025:06:31:07 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:07 [INFO]: ::1 - - [12/Aug/2025:06:31:07 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:07 [INFO]: ::1 - - [12/Aug/2025:06:31:07 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:07 [INFO]: ::1 - - [12/Aug/2025:06:31:07 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:07 [INFO]: ::1 - - [12/Aug/2025:06:31:07 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:12 [INFO]: ::1 - - [12/Aug/2025:06:31:12 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:12 [INFO]: ::1 - - [12/Aug/2025:06:31:12 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:12 [INFO]: ::1 - - [12/Aug/2025:06:31:12 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:12 [INFO]: ::1 - - [12/Aug/2025:06:31:12 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:12 [INFO]: ::1 - - [12/Aug/2025:06:31:12 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:31:12 [INFO]: ::1 - - [12/Aug/2025:06:31:12 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:03 [INFO]: ::1 - - [12/Aug/2025:06:36:03 +0000] "GET /api/manufacturer-statistics/weapon-count HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:03 [INFO]: ::1 - - [12/Aug/2025:06:36:03 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:06 [INFO]: ::1 - - [12/Aug/2025:06:36:06 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:07 [INFO]: ::1 - - [12/Aug/2025:06:36:07 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:07 [INFO]: ::1 - - [12/Aug/2025:06:36:07 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:07 [INFO]: ::1 - - [12/Aug/2025:06:36:07 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:07 [INFO]: ::1 - - [12/Aug/2025:06:36:07 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:55 [INFO]: ::1 - - [12/Aug/2025:06:36:55 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:55 [INFO]: ::1 - - [12/Aug/2025:06:36:55 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:55 [INFO]: ::1 - - [12/Aug/2025:06:36:55 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:55 [INFO]: ::1 - - [12/Aug/2025:06:36:55 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:55 [INFO]: ::1 - - [12/Aug/2025:06:36:55 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:55 [INFO]: ::1 - - [12/Aug/2025:06:36:55 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: 获取武器图片请求，原始武器ID: 2
+2025-08-12 14:36:58 [INFO]: 处理后的武器ID: 2
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /api/weapon-videos/weapon/2 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: 数据库查询结果:
+2025-08-12 14:36:58 [INFO]: 解析到 1 张图片
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /api/weapon-images/2 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /uploads/weapons/weapon-1754630728338-43778295.jpg HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 8775886 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 6809806 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 4778190 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 4221134 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 2615502 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 1566926 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:36:58 [INFO]: ::1 - - [12/Aug/2025:06:36:58 +0000] "GET /api/weapon-videos/file/weapon-video-1754971435701-256934789.mp4 HTTP/1.1" 206 59598 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:38:59 [INFO]: ::1 - - [12/Aug/2025:06:38:59 +0000] "POST /api/weapon-countries HTTP/1.1" 409 45 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:39:55 [INFO]: 制造商创建成功: Steyr Arms  斯太尔武器 (ID: 2116)
+2025-08-12 14:39:55 [INFO]: ::1 - - [12/Aug/2025:06:39:55 +0000] "POST /api/manufacturers HTTP/1.1" 201 596 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:39:55 [INFO]: ::1 - - [12/Aug/2025:06:39:55 +0000] "GET /api/manufacturers HTTP/1.1" 200 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:39:56 [INFO]: ::1 - - [12/Aug/2025:06:39:56 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 200 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:39:56 [INFO]: ::1 - - [12/Aug/2025:06:39:56 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:39:56 [INFO]: ::1 - - [12/Aug/2025:06:39:56 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:39:56 [INFO]: ::1 - - [12/Aug/2025:06:39:56 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:39:56 [INFO]: ::1 - - [12/Aug/2025:06:39:56 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:39:56 [INFO]: ::1 - - [12/Aug/2025:06:39:56 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:29 [INFO]: ::1 - - [12/Aug/2025:06:42:29 +0000] "GET /api/weapons/check-name?name=AUG HTTP/1.1" 404 45 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:29 [INFO]: ::1 - - [12/Aug/2025:06:42:29 +0000] "GET /api/weapons/check-name?name=AUG HTTP/1.1" 404 45 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:29 [INFO]: ::1 - - [12/Aug/2025:06:42:29 +0000] "GET /api/weapons/search?q=AUG HTTP/1.1" 200 48 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:29 [INFO]: ::1 - - [12/Aug/2025:06:42:29 +0000] "GET /api/weapons/search?q=AUG HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:29 [INFO]: ::1 - - [12/Aug/2025:06:42:29 +0000] "POST /api/weapons/direct-add HTTP/1.1" 200 496 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:29 [INFO]: ::1 - - [12/Aug/2025:06:42:29 +0000] "POST /api/weapons/direct-add HTTP/1.1" 200 496 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:29 [INFO]: ::1 - - [12/Aug/2025:06:42:29 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 200 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:29 [INFO]: ::1 - - [12/Aug/2025:06:42:29 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:33 [INFO]: ::1 - - [12/Aug/2025:06:42:33 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:34 [INFO]: ::1 - - [12/Aug/2025:06:42:34 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:34 [INFO]: ::1 - - [12/Aug/2025:06:42:34 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:34 [INFO]: ::1 - - [12/Aug/2025:06:42:34 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:34 [INFO]: ::1 - - [12/Aug/2025:06:42:34 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:34 [INFO]: ::1 - - [12/Aug/2025:06:42:34 +0000] "GET /api/weapons/statistics HTTP/1.1" 200 811 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:39 [INFO]: ::1 - - [12/Aug/2025:06:42:39 +0000] "GET /api/weapons/search?q=AUG HTTP/1.1" 200 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:44 [INFO]: ::1 - - [12/Aug/2025:06:42:44 +0000] "DELETE /api/weapons/direct-delete/605 HTTP/1.1" 200 80 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:44 [INFO]: ::1 - - [12/Aug/2025:06:42:44 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 200 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:44 [INFO]: ::1 - - [12/Aug/2025:06:42:44 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:44 [INFO]: ::1 - - [12/Aug/2025:06:42:44 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:44 [INFO]: ::1 - - [12/Aug/2025:06:42:44 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:44 [INFO]: ::1 - - [12/Aug/2025:06:42:44 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:44 [INFO]: ::1 - - [12/Aug/2025:06:42:44 +0000] "GET /api/weapons/statistics HTTP/1.1" 200 811 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: 获取武器图片请求，原始武器ID: 604
+2025-08-12 14:42:59 [INFO]: 处理后的武器ID: 604
+2025-08-12 14:42:59 [INFO]: 数据库查询结果:
+2025-08-12 14:42:59 [INFO]: 解析到 1 张图片
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-images/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/weapon/604 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /uploads/weapons/weapon-1754909433395-795560203.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 13689847 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 9757687 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 8414199 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 7365623 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 5039095 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 3761143 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 1991671 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 1041399 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:42:59 [INFO]: ::1 - - [12/Aug/2025:06:42:59 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 353271 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:43:00 [INFO]: ::1 - - [12/Aug/2025:06:43:00 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 10544119 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:43:01 [INFO]: ::1 - - [12/Aug/2025:06:43:01 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 1401847 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:43:01 [INFO]: ::1 - - [12/Aug/2025:06:43:01 +0000] "GET /api/weapon-videos/file/weapon-video-1754973454040-264781265.mp4 HTTP/1.1" 206 451575 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:43:33 [INFO]: 获取武器图片请求，原始武器ID: 606
+2025-08-12 14:43:33 [INFO]: 处理后的武器ID: 606
+2025-08-12 14:43:33 [INFO]: 数据库查询结果:
+2025-08-12 14:43:33 [INFO]: 解析到 0 张图片
+2025-08-12 14:43:33 [INFO]: ::1 - - [12/Aug/2025:06:43:33 +0000] "GET /api/weapon-images/606 HTTP/1.1" 200 71 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:43:33 [INFO]: ::1 - - [12/Aug/2025:06:43:33 +0000] "GET /api/weapon-videos/weapon/606 HTTP/1.1" 200 26 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:14 [INFO]: 获取武器图片请求，原始武器ID: 606
+2025-08-12 14:47:14 [INFO]: 处理后的武器ID: 606
+2025-08-12 14:47:14 [INFO]: 数据库查询结果:
+2025-08-12 14:47:14 [INFO]: 解析到 0 张图片
+2025-08-12 14:47:14 [INFO]: ::1 - - [12/Aug/2025:06:47:14 +0000] "GET /api/weapon-images/606 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:18 [INFO]: 使用简化管理员模式访问
+2025-08-12 14:47:18 [INFO]: 简化管理员模式：跳过权限检查
+2025-08-12 14:47:18 [INFO]: 武器图片上传成功: 武器ID 606, 文件 weapon-1754981238909-380599000.png
+2025-08-12 14:47:18 [INFO]: ::1 - - [12/Aug/2025:06:47:18 +0000] "POST /api/weapon-images/606 HTTP/1.1" 200 307 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:18 [INFO]: 获取武器图片请求，原始武器ID: 606
+2025-08-12 14:47:18 [INFO]: 处理后的武器ID: 606
+2025-08-12 14:47:18 [INFO]: 数据库查询结果:
+2025-08-12 14:47:18 [INFO]: 解析到 1 张图片
+2025-08-12 14:47:18 [INFO]: ::1 - - [12/Aug/2025:06:47:18 +0000] "GET /api/weapon-images/606 HTTP/1.1" 200 313 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:19 [INFO]: ::1 - - [12/Aug/2025:06:47:19 +0000] "GET /uploads/weapons/weapon-1754981238909-380599000.png HTTP/1.1" 200 602508 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:19 [INFO]: ::1 - - [12/Aug/2025:06:47:19 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:19 [INFO]: ::1 - - [12/Aug/2025:06:47:19 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:19 [INFO]: ::1 - - [12/Aug/2025:06:47:19 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:19 [INFO]: ::1 - - [12/Aug/2025:06:47:19 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:19 [INFO]: ::1 - - [12/Aug/2025:06:47:19 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:19 [INFO]: ::1 - - [12/Aug/2025:06:47:19 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:31 [INFO]: 获取武器图片请求，原始武器ID: 606
+2025-08-12 14:47:31 [INFO]: 处理后的武器ID: 606
+2025-08-12 14:47:31 [INFO]: 数据库查询结果:
+2025-08-12 14:47:31 [INFO]: 解析到 1 张图片
+2025-08-12 14:47:31 [INFO]: ::1 - - [12/Aug/2025:06:47:31 +0000] "GET /api/weapon-images/606 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:31 [INFO]: ::1 - - [12/Aug/2025:06:47:31 +0000] "GET /api/weapon-videos/weapon/606 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:47:31 [INFO]: ::1 - - [12/Aug/2025:06:47:31 +0000] "GET /uploads/weapons/weapon-1754981238909-380599000.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:49:30 [INFO]: ::1 - - [12/Aug/2025:06:49:30 +0000] "GET /api/weapon-videos/weapon/606 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:49:50 [INFO]: ::1 - - [12/Aug/2025:06:49:50 +0000] "POST /api/weapon-videos/weapon/606/upload HTTP/1.1" 200 246 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:49:50 [INFO]: ::1 - - [12/Aug/2025:06:49:50 +0000] "GET /api/weapon-videos/weapon/606 HTTP/1.1" 200 368 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:49:50 [INFO]: ::1 - - [12/Aug/2025:06:49:50 +0000] "GET /api/weapon-videos/file/weapon-video-1754981390201-33025309.mp4 HTTP/1.1" 206 24834176 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:20 [INFO]: ::1 - - [12/Aug/2025:06:50:20 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:20 [INFO]: ::1 - - [12/Aug/2025:06:50:20 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:20 [INFO]: ::1 - - [12/Aug/2025:06:50:20 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:20 [INFO]: ::1 - - [12/Aug/2025:06:50:20 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:20 [INFO]: ::1 - - [12/Aug/2025:06:50:20 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:20 [INFO]: ::1 - - [12/Aug/2025:06:50:20 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:26 [INFO]: ::1 - - [12/Aug/2025:06:50:26 +0000] "GET /api/manufacturer-statistics/weapon-count HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:26 [INFO]: ::1 - - [12/Aug/2025:06:50:26 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:38 [INFO]: 获取武器图片请求，原始武器ID: 606
+2025-08-12 14:50:38 [INFO]: 处理后的武器ID: 606
+2025-08-12 14:50:38 [INFO]: 数据库查询结果:
+2025-08-12 14:50:38 [INFO]: 解析到 1 张图片
+2025-08-12 14:50:38 [INFO]: ::1 - - [12/Aug/2025:06:50:38 +0000] "GET /api/weapon-images/606 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:38 [INFO]: ::1 - - [12/Aug/2025:06:50:38 +0000] "GET /api/weapon-videos/weapon/606 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:38 [INFO]: ::1 - - [12/Aug/2025:06:50:38 +0000] "GET /uploads/weapons/weapon-1754981238909-380599000.png HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:50:38 [INFO]: ::1 - - [12/Aug/2025:06:50:38 +0000] "GET /api/weapon-videos/file/weapon-video-1754981390201-33025309.mp4 HTTP/1.1" 206 24834176 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:51:55 [INFO]: ::1 - - [12/Aug/2025:06:51:55 +0000] "GET /api/weapon-videos/file/weapon-video-1754981390201-33025309.mp4 HTTP/1.1" 206 23982208 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:18 [INFO]: 获取武器图片请求，原始武器ID: 606
+2025-08-12 14:52:18 [INFO]: 处理后的武器ID: 606
+2025-08-12 14:52:18 [INFO]: 数据库查询结果:
+2025-08-12 14:52:18 [INFO]: 解析到 1 张图片
+2025-08-12 14:52:18 [INFO]: ::1 - - [12/Aug/2025:06:52:18 +0000] "GET /api/weapon-images/606 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:31 [INFO]: 使用简化管理员模式访问
+2025-08-12 14:52:31 [INFO]: 简化管理员模式：跳过权限检查
+2025-08-12 14:52:31 [INFO]: 武器图片描述更新成功: 武器ID 606, 图片ID 1754981238912
+2025-08-12 14:52:31 [INFO]: ::1 - - [12/Aug/2025:06:52:31 +0000] "PUT /api/weapon-images/606/1754981238912 HTTP/1.1" 200 355 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:31 [INFO]: 获取武器图片请求，原始武器ID: 606
+2025-08-12 14:52:31 [INFO]: 处理后的武器ID: 606
+2025-08-12 14:52:31 [INFO]: 数据库查询结果:
+2025-08-12 14:52:31 [INFO]: 解析到 1 张图片
+2025-08-12 14:52:31 [INFO]: ::1 - - [12/Aug/2025:06:52:31 +0000] "GET /api/weapon-images/606 HTTP/1.1" 200 355 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:32 [INFO]: ::1 - - [12/Aug/2025:06:52:32 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:32 [INFO]: ::1 - - [12/Aug/2025:06:52:32 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:32 [INFO]: ::1 - - [12/Aug/2025:06:52:32 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:32 [INFO]: ::1 - - [12/Aug/2025:06:52:32 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:32 [INFO]: ::1 - - [12/Aug/2025:06:52:32 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:32 [INFO]: ::1 - - [12/Aug/2025:06:52:32 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:44 [INFO]: ::1 - - [12/Aug/2025:06:52:44 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:44 [INFO]: ::1 - - [12/Aug/2025:06:52:44 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:44 [INFO]: ::1 - - [12/Aug/2025:06:52:44 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:44 [INFO]: ::1 - - [12/Aug/2025:06:52:44 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:44 [INFO]: ::1 - - [12/Aug/2025:06:52:44 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:44 [INFO]: ::1 - - [12/Aug/2025:06:52:44 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:52:49 [INFO]: ::1 - - [12/Aug/2025:06:52:49 +0000] "GET /api/weapons/search?q=AUG HTTP/1.1" 200 896 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:53:05 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:53:05 [INFO]: SQLite数据库连接成功
+2025-08-12 14:53:05 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:53:05 [INFO]: 所有数据表初始化完成
+2025-08-12 14:53:05 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:53:05 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:53:05 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:53:05 [INFO]: 环境: development
+2025-08-12 14:53:05 [INFO]: 数据库: SQLite
+2025-08-12 14:53:05 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:53:05 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:53:21 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:53:21 [INFO]: SQLite数据库连接成功
+2025-08-12 14:53:21 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:53:21 [INFO]: 所有数据表初始化完成
+2025-08-12 14:53:21 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:53:21 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:53:21 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:53:21 [INFO]: 环境: development
+2025-08-12 14:53:21 [INFO]: 数据库: SQLite
+2025-08-12 14:53:21 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:53:21 [INFO]: API文档: http://localhost:3001/api
+2025-08-12 14:54:09 [INFO]: ::1 - - [12/Aug/2025:06:54:09 +0000] "GET /api/knowledge/graph-data HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:09 [INFO]: ::1 - - [12/Aug/2025:06:54:09 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:09 [INFO]: ::1 - - [12/Aug/2025:06:54:09 +0000] "GET /api/weapon-types HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:09 [INFO]: ::1 - - [12/Aug/2025:06:54:09 +0000] "GET /api/weapon-countries HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:09 [INFO]: ::1 - - [12/Aug/2025:06:54:09 +0000] "GET /api/manufacturers HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:09 [INFO]: ::1 - - [12/Aug/2025:06:54:09 +0000] "GET /api/weapons/statistics HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:13 [INFO]: 获取武器图片请求，原始武器ID: 217
+2025-08-12 14:54:13 [INFO]: 处理后的武器ID: 217
+2025-08-12 14:54:13 [INFO]: 数据库查询结果:
+2025-08-12 14:54:13 [INFO]: 解析到 1 张图片
+2025-08-12 14:54:13 [INFO]: ::1 - - [12/Aug/2025:06:54:13 +0000] "GET /api/weapon-images/217 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:13 [INFO]: ::1 - - [12/Aug/2025:06:54:13 +0000] "GET /api/weapon-videos/weapon/217 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:13 [INFO]: ::1 - - [12/Aug/2025:06:54:13 +0000] "GET /uploads/weapons/weapon-1754628818265-772641713.jpg HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:14 [INFO]: ::1 - - [12/Aug/2025:06:54:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754972258104-591380207.mp4 HTTP/1.1" 206 4578277 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:14 [INFO]: ::1 - - [12/Aug/2025:06:54:14 +0000] "GET /api/weapon-videos/file/weapon-video-1754972258104-591380207.mp4 HTTP/1.1" 206 3791845 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-12 14:54:29 [INFO]: 正在初始化SQLite数据库...
+2025-08-12 14:54:29 [INFO]: SQLite数据库连接成功
+2025-08-12 14:54:29 [INFO]: ✅ 外键约束已启用，数据完整性得到保障
+2025-08-12 14:54:29 [INFO]: 所有数据表初始化完成
+2025-08-12 14:54:29 [INFO]: 基础数据插入完成（不包含示例武器）
+2025-08-12 14:54:29 [INFO]: 兵智世界后端服务启动成功 (简化版)
+2025-08-12 14:54:29 [INFO]: 服务器运行在端口: 3001
+2025-08-12 14:54:29 [INFO]: 环境: development
+2025-08-12 14:54:29 [INFO]: 数据库: SQLite
+2025-08-12 14:54:29 [INFO]: 健康检查: http://localhost:3001/health
+2025-08-12 14:54:29 [INFO]: API文档: http://localhost:3001/api

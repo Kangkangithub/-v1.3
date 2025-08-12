@@ -133,7 +133,8 @@ router.post('/weapon/:weaponId/upload', upload.single('video'), (req, res) => {
             });
         }
 
-        // 保存视频信息到数据库
+        // 保存视频信息到数据库 - 使用相对路径
+        const relativePath = path.relative(path.join(__dirname, '../..'), file.path);
         const stmt = db.prepare(`
             INSERT INTO weapon_videos (weapon_id, filename, original_name, file_path, file_size, mime_type, description)
             VALUES (?, ?, ?, ?, ?, ?, ?)
@@ -143,7 +144,7 @@ router.post('/weapon/:weaponId/upload', upload.single('video'), (req, res) => {
             weaponId,
             file.filename,
             file.originalname,
-            file.path,
+            relativePath,
             file.size,
             file.mimetype,
             description
@@ -203,15 +204,21 @@ router.get('/file/:filename', (req, res) => {
             });
         }
 
+        // 构建完整文件路径 - 处理相对路径和绝对路径
+        const fullPath = path.isAbsolute(video.file_path) 
+            ? video.file_path 
+            : path.join(__dirname, '../..', video.file_path.replace(/\\/g, '/'));
+
         // 检查文件是否存在
-        if (!fs.existsSync(video.file_path)) {
+        if (!fs.existsSync(fullPath)) {
+            console.error(`视频文件不存在: ${fullPath}`);
             return res.status(404).json({ 
                 success: false, 
                 message: '视频文件不存在' 
             });
         }
 
-        const stat = fs.statSync(video.file_path);
+        const stat = fs.statSync(fullPath);
         const fileSize = stat.size;
         const range = req.headers.range;
 
@@ -221,7 +228,7 @@ router.get('/file/:filename', (req, res) => {
             const start = parseInt(parts[0], 10);
             const end = parts[1] ? parseInt(parts[1], 10) : fileSize - 1;
             const chunksize = (end - start) + 1;
-            const file = fs.createReadStream(video.file_path, { start, end });
+            const file = fs.createReadStream(fullPath, { start, end });
             const head = {
                 'Content-Range': `bytes ${start}-${end}/${fileSize}`,
                 'Accept-Ranges': 'bytes',
@@ -236,7 +243,7 @@ router.get('/file/:filename', (req, res) => {
                 'Content-Type': video.mime_type,
             };
             res.writeHead(200, head);
-            fs.createReadStream(video.file_path).pipe(res);
+            fs.createReadStream(fullPath).pipe(res);
         }
 
     } catch (error) {
@@ -331,9 +338,13 @@ router.delete('/:videoId', (req, res) => {
         const result = stmt.run(videoId);
 
         if (result.changes > 0) {
-            // 删除文件
-            if (fs.existsSync(video.file_path)) {
-                fs.unlinkSync(video.file_path);
+            // 构建完整文件路径并删除文件
+            const fullPath = path.isAbsolute(video.file_path) 
+                ? video.file_path 
+                : path.join(__dirname, '../..', video.file_path);
+            
+            if (fs.existsSync(fullPath)) {
+                fs.unlinkSync(fullPath);
             }
 
             res.json({

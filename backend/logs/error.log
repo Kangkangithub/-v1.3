@@ -2996,3 +2996,21 @@
     at Server.listen (node:net:2102:7)
     at app.listen (D:\K\兵智世界v1.3\backend\node_modules\express\lib\application.js:635:24)
     at SimpleApp.start (D:\K\兵智世界v1.3\backend\src\app-simple.js:222:30)
+2025-08-12 14:19:12 [ERROR]: Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at app.listen (D:\K\兵智世界v1.3\backend\node_modules\express\lib\application.js:635:24)
+    at SimpleApp.start (D:\K\兵智世界v1.3\backend\src\app-simple.js:222:30)
+2025-08-12 14:19:41 [ERROR]: Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at app.listen (D:\K\兵智世界v1.3\backend\node_modules\express\lib\application.js:635:24)
+    at SimpleApp.start (D:\K\兵智世界v1.3\backend\src\app-simple.js:222:30)
+2025-08-12 14:24:01 [ERROR]: Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at app.listen (D:\K\兵智世界v1.3\backend\node_modules\express\lib\application.js:635:24)
+    at SimpleApp.start (D:\K\兵智世界v1.3\backend\src\app-simple.js:222:30)
