@@ -72,6 +72,7 @@
 - Node.js 14.0 或更高版本
 - npm 6.0 或更高版本
 - SQLite3 数据库
+- SQLite Viewer 拓展
 
 ### 启动方式
 ```bash
